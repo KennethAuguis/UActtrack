@@ -14,12 +14,22 @@ body {
 
 .wrapper {
   background: #162a63;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 30px;
+  border-radius: 50px;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+  padding: 70px;
   text-align: center;
-  width: 300px;
+  width: 500px;
   color: white;
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  transform: translateX(-50%, 0);
+}
+
+.vertical-line {
+    width: 2px;
+    height: 5px;
+    background-color: gray;
 }
 
 .wrapper h1 {
@@ -37,14 +47,16 @@ body {
   left: 10px;
   transform: translateY(-50%);
   color: #162a63;
+  font-size: 30px;
 }
 
 .input-group input {
   width: 100%;
-  padding: 10px 10px 10px 40px;
-  border-radius: 25px;
+  padding: 10px 0px 20px 50px;
+  border-radius: 45px;
   border: 1px solid #ccc;
   outline: none;
+  font-size: 15px;
 }
 
 input::placeholder {
@@ -56,7 +68,7 @@ button {
   border: none;
   border-radius: 25px;
   color: #162a63;
-  padding: 10px 20px;
+  padding: 0px 40px;
   cursor: pointer;
   margin-top: 10px;
 }
